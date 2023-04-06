@@ -1,11 +1,11 @@
 import './App.css';
-
-import { useState } from 'react';
-import { useQuery, gql } from '@apollo/client';
+import List from './List';
 
 function App() {
   return (
-    <div className="App">Hello</div>
+    <div className="App">
+      <List/>
+    </div>
   );
 }
 

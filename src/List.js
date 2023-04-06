@@ -1,23 +1,3 @@
-# GraphQL 서버로 부터 목록 받아와 표시하기
-App.js
-``` js
-import './App.css';
-import List from './List';
-
-function App() {
-  return (
-    <div className="App">
-      <List/>
-    </div>
-  );
-}
-
-export default App;
-
-```
-
-List.js
-```js
 import React from 'react'
 
 import { useQuery, gql } from '@apollo/client';
@@ -59,4 +39,3 @@ const List = () => {
 }
 
 export default List
-```
